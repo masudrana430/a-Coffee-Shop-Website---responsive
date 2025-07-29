@@ -1,0 +1,33 @@
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+✅ What this means together:
+The container will:
+
+Display as many columns as can fit in the available width.
+
+Each column will be at least 300px wide.
+
+If there's more space, the columns expand proportionally to fill it.
+
+📱 Example in action:
+On a large screen:
+
+css
+Copy
+Edit
+[Card]  [Card]  [Card]  [Card]
+On a medium screen:
+
+css
+Copy
+Edit
+[Card]  [Card]
+[Card]  [Card]
+On mobile:
+
+csharp
+Copy
+Edit
+[Card]
+[Card]
+[Card]
+[Card]
