@@ -41,7 +41,7 @@
                 <i class="logo-icon fa-solid fa-mug-hot text-[28px]" style="color: var(--coffee-gold);"></i>
             </a>
             <!-- Button for Mobile Navigation -->
-            <button id="menu-toggle" class="block md:hidden ...">
+            <button id="menu-toggle" class="block md:hidden">
                 <i class="fas fa-bars"></i>
             </button>
 
@@ -50,14 +50,21 @@
                     <li><a href="#" class="hover:text-[var(--coffee-gold)] transition">Home</a></li>
                     <li><a href="#" class="hover:text-[var(--coffee-gold)] transition">Products</a></li>
                     <li><a href="#" class="hover:text-[var(--coffee-gold)] transition">Locations</a></li>
-                    <li><a href="#" class="hover:text-[var(--coffee-gold)] transition">Contact</a></li>
-                    <li class="flex lg:hidden md:hidden"><a href="#" class="btn btn-secondery">Sign In</a></li>
-                    <li class="lg:hidden md:hidden"><a href="" class="btn btn-primary">Order Online</a></li>
+                    <li><a href="#" class="">Contact</a></li>
+                    <li class="lg:hidden md:hidden"><a href="#" class="hover:text-[var(--coffee-gold)] transition">Sign In</a></li>
+                    <li class="lg:hidden md:hidden"><a href="#" class="hover:text-[var(--coffee-gold)] transition">Order Online</a></li>
 
                 </ul>
+                <!-- <div class="flex flex-col">
+                    <a href="#" class="lg:hidden md:hidden btn btn-secondery">Sign In</a>
+                    <a href="" class="lg:hidden md:hidden btn btn-primary">Order Online</a>
+                </div> -->
+
+
             </nav>
             <!-- Buttons -->
-            <div class="hidden md:flex  md:w-full lg:w-auto md:justify-end gap-[15px] mt-3 md:mt-0 md:flex gap-[15px] mt-3 md:mt-0">
+            <div
+                class="hidden md:flex  md:w-full lg:w-auto md:justify-end gap-[15px] mt-3 md:mt-0 md:flex gap-[15px] mt-3 md:mt-0">
                 <a href="#" class="btn btn-secondery">Sign In</a>
                 <!-- <a href="#"
                 class="inline-block px-[20px] py-[8px] rounded-[30px] font-semibold text-[16px] transition-all
@@ -72,7 +79,8 @@
     </header>
     <section class="hero h-screen flex items-center relative overflow-hidden pt-[80px]">
         <div class="container flex flex-wrap-reverse md:flex-nowrap">
-            <div class="hero-content flex flex-col max-w-full md:max-w-[700px] animate-fadeInUp" style="color: var(--text-light);">
+            <div class="hero-content flex flex-col max-w-full md:max-w-[700px] animate-fadeInUp"
+                style="color: var(--text-light);">
                 <div class="hero-subtitle text-[20px] mt-[10px] md:mt-[20px] mb-[30px] md:mb-[60px]  flex items-center gap-[10px]"
                     style="color: var(--coffee-accent);">
                     <i class="fa-solid fa-seedling"></i>
@@ -84,8 +92,8 @@
                     <span class="relative" style="color: var(--coffee-gold);">crafted with
                         passion</span>
                 </h1>
-               <p class="hero-text  lg:mb-[120px] text-base md:text-[16px] break-words ">
-               <!-- <p class="hero-text text-[16px] mb-[120px] min-w-[700px] "> -->
+                <p class="hero-text  lg:mb-[120px] text-base md:text-[16px] break-words ">
+                    <!-- <p class="hero-text text-[16px] mb-[120px] min-w-[700px] "> -->
                     Discover single origin Coffees roasted to perfaction in small batches for exceptional
                     flavour.Experience the journey from bean to cup with our master roasters.
                 </p>
